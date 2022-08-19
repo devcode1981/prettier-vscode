@@ -1,0 +1,18 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - vsce > lodash:
+        patched: '2022-08-19T05:11:42.519Z'
+    - mocha > yargs-unparser > lodash:
+        patched: '2022-08-19T05:11:42.519Z'
+    - sinon > @sinonjs/samsam > lodash:
+        patched: '2022-08-19T05:11:42.519Z'
+    - vsce > cheerio > lodash:
+        patched: '2022-08-19T05:11:42.519Z'
+    - sinon > @sinonjs/formatio > @sinonjs/samsam > lodash:
+        patched: '2022-08-19T05:11:42.519Z'
+    - sinon > nise > @sinonjs/formatio > @sinonjs/samsam > lodash:
+        patched: '2022-08-19T05:11:42.519Z'
