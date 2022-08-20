@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@prettier/plugin-ruby": "^0.16.0",
+    "@prettier/plugin-ruby": "^3.2.0",
     "prettier": "^1.19.1"
   }
 }
