@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "prettier-eslint": "^9.0.1"
+    "prettier-eslint": "^15.0.1"
   }
 }
